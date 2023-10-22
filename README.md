@@ -1,2 +1,2 @@
 # ShadowX
-All-in-one UI clone of leading iOS &amp; macOS app
+All-in-one UI clone of leading Web, iOS &amp; macOS app
