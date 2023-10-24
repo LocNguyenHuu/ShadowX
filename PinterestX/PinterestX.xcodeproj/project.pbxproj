@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DCED70BD2AE4C530007D1E4E /* PinterestXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCED70BC2AE4C530007D1E4E /* PinterestXApp.swift */; };
-		DCED70BF2AE4C530007D1E4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCED70BE2AE4C530007D1E4E /* ContentView.swift */; };
+		DCED70BF2AE4C530007D1E4E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCED70BE2AE4C530007D1E4E /* MainView.swift */; };
 		DCED70C12AE4C532007D1E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCED70C02AE4C532007D1E4E /* Assets.xcassets */; };
 		DCED70C42AE4C532007D1E4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCED70C32AE4C532007D1E4E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		DCED70B92AE4C530007D1E4E /* PinterestX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinterestX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCED70BC2AE4C530007D1E4E /* PinterestXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestXApp.swift; sourceTree = "<group>"; };
-		DCED70BE2AE4C530007D1E4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCED70BE2AE4C530007D1E4E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		DCED70C02AE4C532007D1E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCED70C32AE4C532007D1E4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +51,11 @@
 		DCED70BB2AE4C530007D1E4E /* PinterestX */ = {
 			isa = PBXGroup;
 			children = (
+				DCED70CC2AE760D5007D1E4E /* Components */,
+				DCED70CB2AE6C2E2007D1E4E /* Models */,
+				DCED70CA2AE6C2DC007D1E4E /* Views */,
 				DCED70BC2AE4C530007D1E4E /* PinterestXApp.swift */,
-				DCED70BE2AE4C530007D1E4E /* ContentView.swift */,
+				DCED70BE2AE4C530007D1E4E /* MainView.swift */,
 				DCED70C02AE4C532007D1E4E /* Assets.xcassets */,
 				DCED70C22AE4C532007D1E4E /* Preview Content */,
 			);
@@ -65,6 +68,27 @@
 				DCED70C32AE4C532007D1E4E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCED70CA2AE6C2DC007D1E4E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCED70CB2AE6C2E2007D1E4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DCED70CC2AE760D5007D1E4E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCED70BF2AE4C530007D1E4E /* ContentView.swift in Sources */,
+				DCED70BF2AE4C530007D1E4E /* MainView.swift in Sources */,
 				DCED70BD2AE4C530007D1E4E /* PinterestXApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
